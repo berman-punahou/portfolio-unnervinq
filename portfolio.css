@@ -1,0 +1,87 @@
+h1 {
+    font-family: "Nerko One";
+    color: azure;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    padding: 15px;
+    position: fixed;
+    height: 100%;
+    z-index: 10
+}
+
+.sidebar h2 {
+    color: white;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.content {
+    margin-left: 300px;
+    padding: 20px;
+    flex: 1;
+    background-color: #f4f4f4;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.normaltext {
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#mainPage {
+    background-color: gray
+}
+
+#aboutmeheader {
+    text-align: center;
+    color: lightcoral;
+    font-family: "Nerko One";
+    text-decoration: none;
+}
+.card {
+    margin: 10px;
+}
+
+hr {
+    z-index: 1;
+    border-width: 7px;
+    border-color: whitesmoke;
+    position: relative;
+    border-style: solid;
+}
+
+#grid {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
